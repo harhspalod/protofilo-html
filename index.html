@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="John Doe" content="John Doe Portfolio">
+   <meta name="description" content="John Doe B.Sc. in Computer Science & Engineering">
+   <meta name="author" content="John Doe, B.Sc. Engineer in Computer Science and Engineering">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+   <!--=============== Vendor CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>John Doe</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">JD.</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav_list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+               <li>
+                  <a href="#work" class="nav__link">Work</a>
+               </li>
+               <li>
+                  <a href="#info" class="nav__link">Info</a>
+               </li>
+               <li>
+                  <a href="#services" class="nav__link">Services</a>
+               </li>
+               <li>
+                  <a href="#contact" class="nav__link">Contact</a>
+               </li>
+            </ul>
+
+            <!-- close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-3-line"></i>
+         </div>
+
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home_container container grid">
+            <img src="assets/img/home-perfil.png" alt="image" class="home_img">
+
+            <div class="home_data">
+               <h1 class="home_name">John <br> Doe</h1>
+               <h3 class="home_professsion">Web Developer</h3>
+            </div>
+
+            <a href="#work" class="home_scroll">
+               <div class="home_scroll-box">
+                  <i class="ri-arrow-down-line"></i>
+               </div>
+               <span class="home_scroll-text">Recent Works</span>
+            </a>
+         </div>
+      </section>
+
+      <!--==================== WORKS ====================-->
+      <section class="work section" id="work">
+         <h2 class="section__title">RECENT WORKS</h2>
+         <div class="work_container container grid">
+            <article class="work_card">
+               <a href="#" target="_blank" class="work_link">
+                  <h2 class="work_title">Project 1</h2>
+                  <p class="work_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quas reiciendis sint voluptates.</p>
+                  <img src="assets/img/work-1.jpg" alt="image" class="work_img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+
+            <article class="work_card">
+               <a href="#" target="_blank" class="work_link">
+                  <h2 class="work_title">Project 2</h2>
+                  <p class="work_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur doloremque minima deserunt amet vitae iusto natus atque nobis porro.</p>
+                  <img src="assets/img/work-2.jpg" alt="image" class="work_img">
+                  <i class="ri-arrow-right-line"></i>
+               </a>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== INFO ====================-->
+      <section class="info section" id="info">
+         <h2 class="section__title">INFO</h2>
+         <div class="info__container container grid">
+            <div class="about grid">
+               <div class="about__content">
+                  <h3 class="info_title">About Me</h3>
+                  <p class="about_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit atque, nesciunt rerum quo delectus perferendis laboriosam?</p>
+                  <a href="./assets/pdf/CV.pdf" download="" target="_blank" class="button about__button">Download CV <i class="ri-download-2-line"></i></a>
+               </div>
+               <img src="assets/img/info-perfil.png" alt="picture" class="about_img">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+         <h2 class="section__title">SERVICES</h2>
+         <div class="services__container container grid">
+            <article class="services__card">
+               <i class="ri-code-box-line services__icon"></i>
+               <h3 class="services__title">Development</h3>
+               <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">CONTACT</h2>
+         <form action="" class="contact__form grid" id="contact-form">
+            <input type="text" name="user_name" placeholder="Name" class="contact__input">
+            <input type="email" name="user_email" placeholder="Email" class="contact__input">
+            <textarea name="user_message" placeholder="Message" class="contact__input contact__area"></textarea>
+            <button type="submit" class="button contact__button">Send Message</button>
+         </form>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <span class="footer__copy">&#169; 2024 John Doe. All Rights Reserved.</span>
+      </div>
+   </footer>
+</body>
+
+</html>
